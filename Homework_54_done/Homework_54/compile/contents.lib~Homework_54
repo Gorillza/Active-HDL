@@ -1,0 +1,4 @@
+54
+~E 1 "../src/H_54.vhd" 5 penc
+~A 1 "../src/H_54.vhd" 20 rtl5
+~E 1 "../src/H_54_tb.vhd" 6 penc_tb

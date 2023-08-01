@@ -1,0 +1,34 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=Homework_54
+[Library]
+Homework_54=.\Homework_54\Homework_54.lib
+[$LibMap$]
+Homework_54=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=ONLY_IMPL
+ON_SERVERFARM_SYNTH=0
+ON_SERVERFARM_IMPL=0
+ON_SERVERFARM_SIM=0
+[IMPLEMENTATION]
+UCF=
+[Files]
+/H_54.vhd=-1
+/right3.asdb=-1
+/right3.awc=-1
+[Files.Data]
+.\src\H_54.vhd=VHDL Source Code
+.\src\right3.asdb=Accelerated Waveform File
+.\src\right3.awc=Accelerated Waveform Configuration
+[HierarchyViewer]
+HierarchyInformation=penc|rtl5|0
+ShowHide=ShowTopLevel
+Selected=
