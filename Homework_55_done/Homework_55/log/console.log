@@ -1,0 +1,454 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.1 [s].
+# Waveform file 'C:/My_Designs/Homework_55/Homework_55/src/lasttttt.awc' connected to 'C:/My_Designs/Homework_55/Homework_55/src/wave.asdb'.
+acom -O3 -e 100 -work Homework_55 -2008  $dsn/src/H_55.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/Homework_55/Homework_55/src/H_55.vhd
+# Compile Entity "counterUpDown"
+# Compile Architecture "rtl" of Entity "counterUpDown"
+# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
+asim -O5 +access +r +m+counterUpDown counterUpDown rtl
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5438 kB (elbread=427 elab2=4872 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\My_Designs\Homework_55\Homework_55\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet1" has been made inactive.
+#  18:09, 25 но€бр€ 2022 г.
+#  Simulation has been initialized
+# Waveform file 'C:/My_Designs/Homework_55/Homework_55/src/lasttttt.awc' connected to 'C:/My_Designs/Homework_55/Homework_55/src/wave.asdb'.
+# add wave -noreg {/counterUpDown/rst_n}
+# add wave -noreg {/counterUpDown/clk}
+# add wave -noreg {/counterUpDown/Sn}
+# add wave -noreg {/counterUpDown/en}
+# add wave -noreg {/counterUpDown/D}
+# add wave -noreg {/counterUpDown/cnt}
+# KERNEL: Warning: KERNEL_0291 Object "/counterUpDown/rst_n" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/counterUpDown/clk" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/counterUpDown/Sn" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/counterUpDown/D" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/counterUpDown/cnt" has already been traced.
+# VSIM: 1 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/My_Designs/Homework_55/Homework_55/src/wave.asdb'.
+run 5000 ns
+# KERNEL: stopped at time: 5 us
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+counterUpDown counterUpDown rtl
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5438 kB (elbread=427 elab2=4872 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\My_Designs\Homework_55\Homework_55\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet2" has been made inactive.
+#  18:11, 25 но€бр€ 2022 г.
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/My_Designs/Homework_55/Homework_55/src/wave.asdb'.
+# Stimuli: Info: The stimuli set "StimuliSet2" has been made active.
+run 5000 ns
+# KERNEL: stopped at time: 5 us
+endsim
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work Homework_55 -2008  $dsn/src/H_55.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/Homework_55/Homework_55/src/H_55.vhd
+# Compile Entity "counterUpDown"
+# Compile Architecture "rtl" of Entity "counterUpDown"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+asim -O5 +access +r +m+counterUpDown counterUpDown rtl
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5438 kB (elbread=427 elab2=4872 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\My_Designs\Homework_55\Homework_55\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet2" has been made inactive.
+#  18:13, 25 но€бр€ 2022 г.
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/My_Designs/Homework_55/Homework_55/src/wave.asdb'.
+# Stimuli: Info: The stimuli set "StimuliSet2" has been made active.
+run 5000 ns
+# KERNEL: stopped at time: 5 us
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+counterUpDown counterUpDown rtl
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5438 kB (elbread=427 elab2=4872 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\My_Designs\Homework_55\Homework_55\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet2" has been made inactive.
+#  18:13, 25 но€бр€ 2022 г.
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/My_Designs/Homework_55/Homework_55/src/wave.asdb'.
+# Stimuli: Info: The stimuli set "StimuliSet2" has been made active.
+run 5000 ns
+# KERNEL: stopped at time: 5 us
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+counterUpDown counterUpDown rtl
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5438 kB (elbread=427 elab2=4872 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\My_Designs\Homework_55\Homework_55\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet2" has been made inactive.
+#  18:14, 25 но€бр€ 2022 г.
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/My_Designs/Homework_55/Homework_55/src/wave.asdb'.
+# Stimuli: Info: The stimuli set "StimuliSet2" has been made active.
+run 5000 ns
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /counterUpDown,  Process: line__22.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 100 ns,  Iteration: 0,  Instance: /counterUpDown,  Process: line__22.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 150 ns,  Iteration: 0,  Instance: /counterUpDown,  Process: line__22.
+# KERNEL: stopped at time: 5 us
+run 5000 ns
+# KERNEL: stopped at time: 10 us
+run 5000 ns
+# KERNEL: stopped at time: 15 us
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+counterUpDown counterUpDown rtl
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5438 kB (elbread=427 elab2=4872 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\My_Designs\Homework_55\Homework_55\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet2" has been made inactive.
+#  18:41, 25 но€бр€ 2022 г.
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/My_Designs/Homework_55/Homework_55/src/wave.asdb'.
+# Stimuli: Info: The stimuli set "StimuliSet2" has been made active.
+run 5000 ns
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /counterUpDown,  Process: line__22.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 100 ns,  Iteration: 0,  Instance: /counterUpDown,  Process: line__22.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 150 ns,  Iteration: 0,  Instance: /counterUpDown,  Process: line__22.
+# KERNEL: stopped at time: 5 us
+endsim
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work Homework_55 -2008  $dsn/src/H_55.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/Homework_55/Homework_55/src/H_55.vhd
+# Compile Entity "counterUpDown"
+# Compile Architecture "rtl" of Entity "counterUpDown"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+asim -O5 +access +r +m+counterUpDown counterUpDown rtl
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5438 kB (elbread=427 elab2=4872 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\My_Designs\Homework_55\Homework_55\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet2" has been made inactive.
+#  18:42, 25 но€бр€ 2022 г.
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/My_Designs/Homework_55/Homework_55/src/wave.asdb'.
+# Stimuli: Info: The stimuli set "StimuliSet2" has been made active.
+run 5000 ns
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /counterUpDown,  Process: line__22.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 100 ns,  Iteration: 0,  Instance: /counterUpDown,  Process: line__22.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 150 ns,  Iteration: 0,  Instance: /counterUpDown,  Process: line__22.
+# KERNEL: stopped at time: 5 us
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+counterUpDown counterUpDown rtl
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5438 kB (elbread=427 elab2=4872 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\My_Designs\Homework_55\Homework_55\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet2" has been made inactive.
+#  18:45, 25 но€бр€ 2022 г.
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/My_Designs/Homework_55/Homework_55/src/wave.asdb'.
+# Stimuli: Info: The stimuli set "StimuliSet2" has been made active.
+run 5000 ns
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /counterUpDown,  Process: line__22.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 100 ns,  Iteration: 0,  Instance: /counterUpDown,  Process: line__22.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 150 ns,  Iteration: 0,  Instance: /counterUpDown,  Process: line__22.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 1450 ns,  Iteration: 0,  Instance: /counterUpDown,  Process: line__22.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 1500 ns,  Iteration: 0,  Instance: /counterUpDown,  Process: line__22.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 1550 ns,  Iteration: 0,  Instance: /counterUpDown,  Process: line__22.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 1600 ns,  Iteration: 0,  Instance: /counterUpDown,  Process: line__22.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 1650 ns,  Iteration: 0,  Instance: /counterUpDown,  Process: line__22.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 1700 ns,  Iteration: 0,  Instance: /counterUpDown,  Process: line__22.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 1750 ns,  Iteration: 0,  Instance: /counterUpDown,  Process: line__22.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 1800 ns,  Iteration: 0,  Instance: /counterUpDown,  Process: line__22.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 1850 ns,  Iteration: 0,  Instance: /counterUpDown,  Process: line__22.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 1900 ns,  Iteration: 0,  Instance: /counterUpDown,  Process: line__22.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 1950 ns,  Iteration: 0,  Instance: /counterUpDown,  Process: line__22.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 2 us,  Iteration: 0,  Instance: /counterUpDown,  Process: line__22.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 2050 ns,  Iteration: 0,  Instance: /counterUpDown,  Process: line__22.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 2100 ns,  Iteration: 0,  Instance: /counterUpDown,  Process: line__22.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 2150 ns,  Iteration: 0,  Instance: /counterUpDown,  Process: line__22.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 2200 ns,  Iteration: 0,  Instance: /counterUpDown,  Process: line__22.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 2250 ns,  Iteration: 0,  Instance: /counterUpDown,  Process: line__22.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 2300 ns,  Iteration: 0,  Instance: /counterUpDown,  Process: line__22.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 2350 ns,  Iteration: 0,  Instance: /counterUpDown,  Process: line__22.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 2400 ns,  Iteration: 0,  Instance: /counterUpDown,  Process: line__22.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 2450 ns,  Iteration: 0,  Instance: /counterUpDown,  Process: line__22.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 2500 ns,  Iteration: 0,  Instance: /counterUpDown,  Process: line__22.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 2550 ns,  Iteration: 0,  Instance: /counterUpDown,  Process: line__22.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 2600 ns,  Iteration: 0,  Instance: /counterUpDown,  Process: line__22.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 2650 ns,  Iteration: 0,  Instance: /counterUpDown,  Process: line__22.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 2700 ns,  Iteration: 0,  Instance: /counterUpDown,  Process: line__22.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 2750 ns,  Iteration: 0,  Instance: /counterUpDown,  Process: line__22.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 2800 ns,  Iteration: 0,  Instance: /counterUpDown,  Process: line__22.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 2850 ns,  Iteration: 0,  Instance: /counterUpDown,  Process: line__22.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 2900 ns,  Iteration: 0,  Instance: /counterUpDown,  Process: line__22.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 2950 ns,  Iteration: 0,  Instance: /counterUpDown,  Process: line__22.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 3 us,  Iteration: 0,  Instance: /counterUpDown,  Process: line__22.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 3050 ns,  Iteration: 0,  Instance: /counterUpDown,  Process: line__22.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 3100 ns,  Iteration: 0,  Instance: /counterUpDown,  Process: line__22.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 3150 ns,  Iteration: 0,  Instance: /counterUpDown,  Process: line__22.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 3200 ns,  Iteration: 0,  Instance: /counterUpDown,  Process: line__22.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 3250 ns,  Iteration: 0,  Instance: /counterUpDown,  Process: line__22.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 3300 ns,  Iteration: 0,  Instance: /counterUpDown,  Process: line__22.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 3350 ns,  Iteration: 0,  Instance: /counterUpDown,  Process: line__22.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 3400 ns,  Iteration: 0,  Instance: /counterUpDown,  Process: line__22.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 3450 ns,  Iteration: 0,  Instance: /counterUpDown,  Process: line__22.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 3500 ns,  Iteration: 0,  Instance: /counterUpDown,  Process: line__22.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 3550 ns,  Iteration: 0,  Instance: /counterUpDown,  Process: line__22.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 3600 ns,  Iteration: 0,  Instance: /counterUpDown,  Process: line__22.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 3650 ns,  Iteration: 0,  Instance: /counterUpDown,  Process: line__22.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 3700 ns,  Iteration: 0,  Instance: /counterUpDown,  Process: line__22.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 3750 ns,  Iteration: 0,  Instance: /counterUpDown,  Process: line__22.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 3800 ns,  Iteration: 0,  Instance: /counterUpDown,  Process: line__22.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 3850 ns,  Iteration: 0,  Instance: /counterUpDown,  Process: line__22.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 3900 ns,  Iteration: 0,  Instance: /counterUpDown,  Process: line__22.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 3950 ns,  Iteration: 0,  Instance: /counterUpDown,  Process: line__22.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 4 us,  Iteration: 0,  Instance: /counterUpDown,  Process: line__22.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 4050 ns,  Iteration: 0,  Instance: /counterUpDown,  Process: line__22.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 4100 ns,  Iteration: 0,  Instance: /counterUpDown,  Process: line__22.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 4150 ns,  Iteration: 0,  Instance: /counterUpDown,  Process: line__22.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 4200 ns,  Iteration: 0,  Instance: /counterUpDown,  Process: line__22.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 4250 ns,  Iteration: 0,  Instance: /counterUpDown,  Process: line__22.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 4300 ns,  Iteration: 0,  Instance: /counterUpDown,  Process: line__22.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 4350 ns,  Iteration: 0,  Instance: /counterUpDown,  Process: line__22.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 4400 ns,  Iteration: 0,  Instance: /counterUpDown,  Process: line__22.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 4450 ns,  Iteration: 0,  Instance: /counterUpDown,  Process: line__22.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 4500 ns,  Iteration: 0,  Instance: /counterUpDown,  Process: line__22.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 4550 ns,  Iteration: 0,  Instance: /counterUpDown,  Process: line__22.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 4600 ns,  Iteration: 0,  Instance: /counterUpDown,  Process: line__22.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 4650 ns,  Iteration: 0,  Instance: /counterUpDown,  Process: line__22.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 4700 ns,  Iteration: 0,  Instance: /counterUpDown,  Process: line__22.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 4750 ns,  Iteration: 0,  Instance: /counterUpDown,  Process: line__22.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 4800 ns,  Iteration: 0,  Instance: /counterUpDown,  Process: line__22.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 4850 ns,  Iteration: 0,  Instance: /counterUpDown,  Process: line__22.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 4900 ns,  Iteration: 0,  Instance: /counterUpDown,  Process: line__22.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 4950 ns,  Iteration: 0,  Instance: /counterUpDown,  Process: line__22.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 5 us,  Iteration: 0,  Instance: /counterUpDown,  Process: line__22.
+# KERNEL: stopped at time: 5 us
+# Waveform file 'C:/My_Designs/Homework_55/Homework_55/src/untitled.awc' connected to 'C:/My_Designs/Homework_55/Homework_55/src/untitled.asdb'.
+# Adding file C:\My_Designs\Homework_55\Homework_55\src\untitled.asdb ... Done
+# Adding file C:\My_Designs\Homework_55\Homework_55\src\untitled.awc ... Done

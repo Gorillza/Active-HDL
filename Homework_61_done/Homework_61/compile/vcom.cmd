@@ -1,0 +1,1 @@
+-w -erf C:/My_Designs/Homework_61/Homework_61/compile/Homework_61.erf -d C:/My_Designs/Homework_61/Homework_61/compile -s C:/My_Designs/Homework_61/library.cfg -j C:/My_Designs/Homework_61/Homework_61/projlib.cfg -work Homework_61 -O3 -e 100 -work Homework_61 -2008 C:/My_Designs/Homework_61/Homework_61/src/shiftN.vhd 

@@ -1,0 +1,6 @@
+20
+~E 1 "../src/shiftN.vhd" 4 shift
+~A 1 "../src/shiftN.vhd" 16 rtl
+~A 1 "../src/shiftN_tb.vhd" 9 tb
+~E 1 "../src/shiftN_tb.vhd" 6 shift_tb
+~A 1 "../src/shiftN_tb.vhd" 9 tb

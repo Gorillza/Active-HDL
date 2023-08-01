@@ -1,0 +1,5 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: C:/My_Designs/Homework_61/Homework_61/src/shiftN.vhd" 
+MESSAGE "Compile Entity "shift"" 
+MESSAGE "Compile Architecture "rtl" of Entity "shift"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]" 
