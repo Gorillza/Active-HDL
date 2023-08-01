@@ -1,0 +1,5 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: C:/My_Designs/Homework_62/Homework_62/src/penc_tb.vhd" 
+MESSAGE "Compile Entity "penc_tb"" 
+MESSAGE "Compile Architecture "tb" of Entity "penc_tb"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  46.0 [ms]" 

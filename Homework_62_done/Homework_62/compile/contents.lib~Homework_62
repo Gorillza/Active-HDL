@@ -1,0 +1,5 @@
+128
+~E 1 "../src/penc.vhd" 5 penc
+~A 1 "../src/penc.vhd" 20 rtl5
+~E 1 "../src/penc_tb.vhd" 6 penc_tb
+~A 1 "../src/penc_tb.vhd" 9 tb
