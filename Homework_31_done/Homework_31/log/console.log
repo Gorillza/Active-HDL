@@ -1,0 +1,30 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# Waveform file 'C:/My_Designs/Homework_31/Homework_31/src/untitled.awc' connected to 'C:/My_Designs/Homework_31/Homework_31/src/untitled.asdb'.
+asim -O5 +access +r +m+log_func log_func mux8
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5437 kB (elbread=427 elab2=4871 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location C:\My_Designs\Homework_31\Homework_31\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet1" has been made inactive.
+#  11:43, 11 но€бр€ 2022 г.
+#  Simulation has been initialized
+# Stimuli: Info: The stimuli set "StimuliSet1" has been made active.
+# KERNEL: stopped at time: 128 us

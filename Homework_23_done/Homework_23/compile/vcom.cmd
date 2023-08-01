@@ -1,0 +1,1 @@
+-w -erf C:/My_Designs/Homework_23/Homework_23/compile/Homework_23.erf -d C:/My_Designs/Homework_23/Homework_23/compile -s C:/My_Designs/Homework_23/library.cfg -j C:/My_Designs/Homework_23/Homework_23/projlib.cfg -work Homework_23 -O3 -e 100 -work Homework_23 -2002 C:/My_Designs/Homework_23/Homework_23/src/H_23.vhd 

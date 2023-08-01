@@ -1,0 +1,7 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: c:/My_Designs/Homework_32/Homework_32/src/H_32.vhd" 
+MESSAGE "Compile Entity "log_func"" 
+MESSAGE "Compile Architecture "dec3_8" of Entity "log_func"" 
+MESSAGE "Top-level unit(s) detected:" 
+MESSAGE "Entity => log_func" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]" 

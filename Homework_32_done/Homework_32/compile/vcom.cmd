@@ -1,0 +1,1 @@
+-w -erf c:/My_Designs/Homework_32/Homework_32/compile/Homework_32.erf -d c:/My_Designs/Homework_32/Homework_32/compile -s c:/My_Designs/Homework_32/library.cfg -j c:/My_Designs/Homework_32/Homework_32/projlib.cfg -work Homework_32 -reorder -O3 -e 100 -work Homework_32 -2002 c:/My_Designs/Homework_32/Homework_32/src/H_32.vhd 
