@@ -1,0 +1,1 @@
+-w -erf c:/My_Designs/Homework_42/Homework_42/compile/Homework_42.erf -d c:/My_Designs/Homework_42/Homework_42/compile -s c:/My_Designs/Homework_42/library.cfg -j c:/My_Designs/Homework_42/Homework_42/projlib.cfg -work Homework_42 -O3 -e 100 -work Homework_42 -2019 c:/My_Designs/Homework_42/Homework_42/src/buf4.vhd 

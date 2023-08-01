@@ -1,0 +1,1 @@
+-o C:/My_Designs/Homework_41/Homework_31/compile -lc C:/My_Designs/Homework_41/library.cfg -fl C:/My_Designs/Homework_41/Homework_31/projlib.cfg -pli "C:/Aldec/Active-HDL-Student-Edition/bin/systf.dll" -epr C:/My_Designs/Homework_41/Homework_31/compile/Homework_31.epr -O2 -sve -msg 5 -sv2k12 -work Homework_31 C:/My_Designs/Homework_41/Homework_31/src/orN.v 

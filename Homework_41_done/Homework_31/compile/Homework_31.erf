@@ -1,0 +1,5 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: C:/My_Designs/Homework_41/Homework_31/src/H_41.vhd" 
+MESSAGE "Compile Entity "and_or_4"" 
+MESSAGE "Compile Architecture "struct" of Entity "and_or_4"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]" 

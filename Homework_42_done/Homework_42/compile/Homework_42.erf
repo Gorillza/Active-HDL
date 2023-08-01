@@ -1,0 +1,5 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: c:/My_Designs/Homework_42/Homework_42/src/buf4.vhd" 
+MESSAGE "Compile Entity "log_func_buf"" 
+MESSAGE "Compile Architecture "buf4" of Entity "log_func_buf"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]" 

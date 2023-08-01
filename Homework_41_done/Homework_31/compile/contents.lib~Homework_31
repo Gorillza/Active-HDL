@@ -1,0 +1,9 @@
+46
+~M 0 "" 0 $root
+~A 1 "" 0 $root
+~E 1 "../src/H_41.vhd" 4 and_or_4
+~A 1 "../src/H_41.vhd" 17 struct
+~E 1 "../src/andN.vhd" 5 log_func
+~A 1 "../src/andN.vhd" 15 or_vect_n
+~M 3 "../src/orN.v" 1 orN
+~A 1 "../src/orN.v" 1 orN
