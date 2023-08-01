@@ -1,0 +1,25 @@
+timestamp=1668180786948
+
+[~A]
+ModifyID=34
+Version=74
+
+[~MFT]
+0=8|0Homework_34.mgf|18807|17466
+1=2|1Homework_34.mgf|37272|32502
+3=2|3Homework_34.mgf|0|0
+
+[log_func]
+A/buf4=*21|../src/H_34.vhd|14|
+A/decn_z=A/decN_Z 24|../src/log_func.bde|10000|1*37272
+BinW64/decn_z=3*0
+I=0*8347
+I/decn_z=I/decN_Z 0*18807
+M=11|2|vef|1664467412222|../src/H_34.vhd|0*7926*0x8e59004db967dd64a30d576ef4767e2bb9fb4603|0*8270*0xd986fd7175c8cf28cd774bcadde79966
+M/decn_z=M/decN_Z 21|2|vef|1668180786922|../src/H_34.vhd|0*18355*0xfbfbdfc109c8ff1c0395886753ed350d2f6e1238|0*18720*0xb966535deb9617f745ced53ae4cc1a7f
+R=../src/H_34.vhd|5
+Version=13.0.376.8320 (Windows64)|00000009789cd3f53756d0353230b00000090c01c7|9318ce06e5dcc64c04c67d7392f80eb266a8fb75f931e9fee4e37f6a545f22a39f7f48b7deebf2ce58bf11d463c0ad08
+Version/decn_z=13.0.376.8320 (Windows64)|00000009789cd3f53756d0353230b00000090c01c7|b82d25be084f1e726713c2eadd19d7caa4b1eaa499d4a9500be2e804437028dd
+
+[~U]
+log_func=11|0*7700|

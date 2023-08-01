@@ -1,0 +1,4 @@
+34
+~E 1 "../src/H_34.vhd" 5 log_func
+~A 0 "" 0 buf4
+~A 1 "../src/H_34.vhd" 22 decN_Z

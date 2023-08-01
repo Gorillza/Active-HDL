@@ -1,0 +1,326 @@
+SCHM0106
+
+HEADER
+{
+ FREEID 44
+ VARIABLES
+ {
+  #ARCHITECTURE="decN_Z"
+  #BLOCKTABLE_FILE="#HDL2DIAGRAM.bde"
+  #DEFAULT_RANGE0="<range<index=\"0\"><name=\"f\"><left=\"a ** (N) - 1\"><direction=\"downto\"><right=\"0\"><initial_value=\"\"><delay=\"\">>"
+  #DEFAULT_RANGE1="<range<index=\"0\"><name=\"minout\"><left=\"a ** (N) - 1\"><direction=\"downto\"><right=\"0\"><initial_value=\"\"><delay=\"\">>"
+  #DEFAULT_RANGE2="<range<index=\"0\"><name=\"x1\"><left=\"N - 1\"><direction=\"downto\"><right=\"0\"><initial_value=\"\"><delay=\"\">>"
+  #DEFAULT_RANGE3="<range<index=\"0\"><name=\"zc\"><left=\"a ** (N) - 1\"><direction=\"downto\"><right=\"0\"><initial_value=\"\"><delay=\"\">>"
+  #ENTITY="log_func"
+  #LANGUAGE="VHDL"
+  AUTHOR="gorilas"
+  COMPANY="MGTU"
+  CREATIONDATE="10.10.2022"
+  SOURCE="..\\src\\H_34.vhd"
+ }
+}
+
+PAGE ""
+{
+ PAGEHEADER
+ {
+  PAGESIZE (2221,1271)
+  MARGINS (200,200,200,200)
+  RECT (0,0,0,0)
+ }
+ 
+ BODY
+ {
+  VHDLDESIGNUNITHDR  1, 0, 0
+  {
+   LABEL "Design Unit Header"
+   TEXT 
+"library ieee;\n"+
+"use ieee.std_logic_1164.all;\n"+
+"use ieee.NUMERIC_STD.all;"
+   RECT (220,260,620,472)
+   MARGINS (20,20)
+   MULTILINE
+   SYNTAXCOLORED
+   SHOWLABEL
+   SHOWTEXT
+   CORNER 10
+  }
+  GENERIC  2, 0, 0
+  {
+   LABEL "Generics"
+   TEXT 
+"N : natural := 3;\n"+
+"a : natural := 2;"
+   RECT (220,545,459,651)
+   MARGINS (20,20)
+   MULTILINE
+   SYNTAXCOLORED
+   SHOWLABEL
+   SHOWTEXT
+   CORNER 10
+  }
+  SIGNALASSIGN  3, 0, 0
+  {
+   LABEL "block_33"
+   TEXT "f <= (MinOut sll to_integer(unsigned(x1))) when ez = '0' else Zc;"
+   RECT (1400,240,1801,400)
+   MARGINS (20,20)
+   SYNTAXCOLORED
+   SHOWLABEL
+   SHOWTEXT
+   CORNER 10
+   VTX (  17, 21, 23, 29, 35 )
+  }
+  SIGNALASSIGN  4, 0, 0
+  {
+   LABEL "block_29"
+   TEXT "MinOut <= (0 => '1', others => '0');"
+   RECT (860,240,1261,340)
+   MARGINS (20,20)
+   SYNTAXCOLORED
+   SHOWLABEL
+   SHOWTEXT
+   CORNER 10
+   VTX (  20 )
+  }
+  SIGNALASSIGN  5, 0, 0
+  {
+   LABEL "block_28"
+   TEXT "Zc <= (others => 'Z');"
+   RECT (860,400,1181,500)
+   MARGINS (20,20)
+   SYNTAXCOLORED
+   SHOWLABEL
+   SHOWTEXT
+   CORNER 10
+   VTX (  26 )
+  }
+  INSTANCE  6, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="BusInput"
+    #DOWNTO="1"
+    #LIBRARY="#terminals"
+    #REFERENCE="x1(N - 1:0)"
+    #SYMBOL="BusInput"
+    #VHDL_TYPE="STD_LOGIC_VECTOR"
+   }
+   COORD (860,560)
+   VERTEXES ( (2,32) )
+  }
+  INSTANCE  7, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="Input"
+    #LIBRARY="#terminals"
+    #REFERENCE="ez"
+    #SYMBOL="Input"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+   COORD (860,600)
+   VERTEXES ( (2,38) )
+  }
+  INSTANCE  8, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="BusOutput"
+    #DOWNTO="1"
+    #LIBRARY="#terminals"
+    #REFERENCE="f(a ** (N) - 1:0)"
+    #SYMBOL="BusOutput"
+    #VHDL_TYPE="STD_LOGIC_VECTOR"
+   }
+   COORD (1400,640)
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#REFERENCE"
+   RECT (809,560,809,560)
+   ALIGN 6
+   PARENT 6
+  }
+  TEXT  10, 0, 0
+  {
+   TEXT "$#REFERENCE"
+   RECT (809,600,809,600)
+   ALIGN 6
+   PARENT 7
+  }
+  TEXT  11, 0, 0
+  {
+   TEXT "$#REFERENCE"
+   RECT (1451,640,1451,640)
+   ALIGN 4
+   PARENT 8
+  }
+  NET BUS  12, 0, 0
+  {
+   VARIABLES
+   {
+    #DOWNTO="1"
+    #NAME="f(a ** (N) - 1:0)"
+    #VHDL_TYPE="STD_LOGIC_VECTOR"
+   }
+  }
+  NET WIRE  13, 0, 0
+  {
+   VARIABLES
+   {
+    #NAME="ez"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+  }
+  NET BUS  14, 0, 0
+  {
+   VARIABLES
+   {
+    #DOWNTO="1"
+    #NAME="MinOut(a ** (N) - 1:0)"
+    #VHDL_TYPE="STD_ULOGIC_VECTOR"
+   }
+  }
+  NET BUS  15, 0, 0
+  {
+   VARIABLES
+   {
+    #DOWNTO="1"
+    #NAME="x1(N - 1:0)"
+    #VHDL_TYPE="STD_LOGIC_VECTOR"
+   }
+  }
+  NET BUS  16, 0, 0
+  {
+   VARIABLES
+   {
+    #DOWNTO="1"
+    #NAME="Zc(a ** (N) - 1:0)"
+    #VHDL_TYPE="STD_ULOGIC_VECTOR"
+   }
+  }
+  VTX  17, 0, 0
+  {
+   COORD (1801,260)
+  }
+  VTX  18, 0, 0
+  {
+   COORD (1880,260)
+  }
+  BUS  19, 0, 0
+  {
+   NET 12
+   VTX 17, 18
+  }
+  VTX  20, 0, 0
+  {
+   COORD (1261,260)
+  }
+  VTX  21, 0, 0
+  {
+   COORD (1400,260)
+  }
+  BUS  22, 0, 0
+  {
+   NET 14
+   VTX 20, 21
+  }
+  VTX  23, 0, 0
+  {
+   COORD (1400,380)
+  }
+  VTX  24, 0, 0
+  {
+   COORD (1340,380)
+  }
+  BUS  25, 0, 0
+  {
+   NET 16
+   VTX 23, 24
+  }
+  VTX  26, 0, 0
+  {
+   COORD (1181,420)
+  }
+  VTX  27, 0, 0
+  {
+   COORD (1340,420)
+  }
+  BUS  28, 0, 0
+  {
+   NET 16
+   VTX 26, 27
+  }
+  VTX  29, 0, 0
+  {
+   COORD (1400,300)
+  }
+  VTX  30, 0, 0
+  {
+   COORD (1360,300)
+  }
+  BUS  31, 0, 0
+  {
+   NET 15
+   VTX 29, 30
+  }
+  VTX  32, 0, 0
+  {
+   COORD (860,560)
+  }
+  VTX  33, 0, 0
+  {
+   COORD (1360,560)
+  }
+  BUS  34, 0, 0
+  {
+   NET 15
+   VTX 32, 33
+  }
+  VTX  35, 0, 0
+  {
+   COORD (1400,340)
+  }
+  VTX  36, 0, 0
+  {
+   COORD (1380,340)
+  }
+  WIRE  37, 0, 0
+  {
+   NET 13
+   VTX 35, 36
+  }
+  VTX  38, 0, 0
+  {
+   COORD (860,600)
+  }
+  VTX  39, 0, 0
+  {
+   COORD (1380,600)
+  }
+  WIRE  40, 0, 0
+  {
+   NET 13
+   VTX 38, 39
+  }
+  WIRE  41, 0, 0
+  {
+   NET 13
+   VTX 36, 39
+  }
+  BUS  42, 0, 0
+  {
+   NET 15
+   VTX 30, 33
+  }
+  BUS  43, 0, 0
+  {
+   NET 16
+   VTX 24, 27
+  }
+ }
+ 
+}
+
