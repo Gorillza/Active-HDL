@@ -1,0 +1,5 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: c:/My_Designs/Homework_52/Homework_52/src/H_52.vhd" 
+MESSAGE "Compile Entity "sum_v1"" 
+MESSAGE "Compile Architecture "rtl" of Entity "sum_v1"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  46.0 [ms]" 

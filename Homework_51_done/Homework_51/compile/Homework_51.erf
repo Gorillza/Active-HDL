@@ -1,0 +1,5 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: C:/My_Designs/Homework_51/Homework_51/src/H_51.vhd" 
+MESSAGE "Compile Entity "inv"" 
+MESSAGE "Compile Architecture "rtl" of Entity "inv"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]" 
