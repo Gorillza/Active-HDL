@@ -1,0 +1,1 @@
+-w -erf C:/My_Designs/Homework_22/Homewrk_22/compile/Homewrk_22.erf -d C:/My_Designs/Homework_22/Homewrk_22/compile -s C:/My_Designs/Homework_22/library.cfg -j C:/My_Designs/Homework_22/Homewrk_22/projlib.cfg -work Homewrk_22 -O3 -e 100 -work Homewrk_22 -2002 C:/My_Designs/Homework_22/Homewrk_22/src/H_22.vhd 

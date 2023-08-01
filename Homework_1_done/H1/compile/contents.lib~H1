@@ -1,0 +1,6 @@
+74
+~E 1 "../src/H1.vhd" 5 log_func
+~A 0 "" 0 alex
+~A 1 "../src/H1.vhd" 26 rtl1
+~A 0 "" 0 rtl2
+~C 1 "../src/H1.vhd" 33 logic_func_conf
